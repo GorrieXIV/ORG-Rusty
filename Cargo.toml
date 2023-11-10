@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "core/entities",
+  "core/physics",
+  "core/display",
+]
