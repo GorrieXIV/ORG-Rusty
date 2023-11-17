@@ -1,5 +1,6 @@
 [workspace]
 members = [
+  "core/math",
   "core/entities",
   "core/physics",
   "core/display",
