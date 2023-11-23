@@ -1,6 +1,7 @@
+use math::vector::Vector2D;
+
 pub struct Entity {
-    x: f32,
-    y: f32,
+    position: Vector2D,
     width: f32,
     height: f32,
     angle: f32,
@@ -9,11 +10,6 @@ pub struct Entity {
 
 impl Entity {
     fn set_position(&mut self, x: f32, y: f32) {
-        self.x = x;
-        self.y = y;
-    }
-
-    fn move_to(&mut self) {
-    
+        self.position = Vector2D{x: x, y: y};
     }
 }
